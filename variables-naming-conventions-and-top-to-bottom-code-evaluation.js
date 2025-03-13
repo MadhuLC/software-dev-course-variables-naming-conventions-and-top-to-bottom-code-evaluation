@@ -24,9 +24,14 @@ Things to reflect on:
   
 */
 
-let a = "Alice";
-let b = 5;
-let c = 20;
-let d = a + " bought " + b + " items for $" + c + ".";
+let Name = "Alice";
+let Count = 5;
+let Cost = 20;
+let finalValue = Name + " bought " + Count + " items for $" + Cost + ".";
+console.log(finalValue);
 
-console.log(d);
+let itemName ="apples";
+let Store = "Walmart";
+let itemCost = 10;
+let finalValue2 = itemName + "bought from" + Store + "items for $" + itemCost + ".";
+console.log(finalValue2);
